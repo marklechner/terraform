@@ -11,3 +11,6 @@ export AWS_SECRET_ACCESS_KEY=<secret>`
 
 ## deploy
 * `terraform apply`
+
+## audit
+* check configured outputs from applied template: `terraform output`
