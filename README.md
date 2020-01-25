@@ -1,3 +1,7 @@
+## webapp example
+
+Terraform 0.12.x
+
 ## setup
 * install terraform (mac): `brew install terraform`
 * set AWS credentials as envvars:
@@ -10,7 +14,10 @@ export AWS_SECRET_ACCESS_KEY=<secret>`
 * get DOT that can be rendered by graphviz: `terraform graph`
 
 ## deploy
-* `terraform apply`
+`terraform apply`
 
 ## audit
 * check configured outputs from applied template: `terraform output`
+
+## cleanup
+`terraform destroy`
